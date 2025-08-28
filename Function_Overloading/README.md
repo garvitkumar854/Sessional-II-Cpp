@@ -53,6 +53,7 @@ int main() {
 ```
 
 ## Constructor Overloading
+Constructor overloading in C++ means defining multiple constructors in the same class, each with a different parameter list. This allows objects to be initialized in different ways depending on the number or type of arguments provided.
 ```cpp
 #include <iostream>
 using namespace std;
