@@ -1,5 +1,6 @@
 # Constructors in C++
 ## Default Constructor
+A default constructor is a constructor that takes no arguments and initializes objects with default values. If not written, the compiler provides one automatically.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -25,6 +26,7 @@ int main() {
 ```
 
 ## Parameterized Constructor
+**A default constructor is a constructor that takes no arguments and initializes objects with default values. If not written, the compiler provides one automatically.**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -50,6 +52,7 @@ int main() {
 ```
 
 ## Constructor Overloading
+Constructor overloading in C++ means defining multiple constructors within the same class, each having different parameter lists, allowing objects to be initialized in various ways depending on provided arguments.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -82,6 +85,13 @@ int main() {
 ```
 
 ## Copy Constructor
+A copy constructor in C++ is a special constructor that initializes a new object as a copy of an existing object. It takes a reference to the same class as a parameter. By default, the compiler provides a shallow copy constructor, but programmers can define their own to perform deep copying when needed.
+
+- Special constructor used to create a copy of an object.
+- Syntax: ClassName(const ClassName &obj)
+- Called when passing objects by value, returning objects, or creating one object from another.
+- Default copy constructor performs shallow copy (copies addresses, not data).
+- User-defined copy constructor ensures deep copy (new memory allocation).
 ```cpp
 #include <iostream>
 using namespace std;
