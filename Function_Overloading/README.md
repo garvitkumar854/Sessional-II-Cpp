@@ -1,4 +1,10 @@
 # Function Overloading
+Function overloading in C++ is the ability to define multiple functions with the same name but with different parameter lists (different number or types of arguments). The compiler decides which function to call based on the arguments passed.
+- Same function name, but different signature (parameter type/number).
+- Return type alone cannot distinguish overloaded functions.
+- Improves readability and reusability.
+- Example: add(int, int) and add(double, double) both exist in same program.
+- If compiler cannot decide which version to call → ambiguity error.
 
 ## Basic Overloading (Different Number of Parameters)
 ```cpp
