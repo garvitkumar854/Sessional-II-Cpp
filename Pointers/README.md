@@ -38,9 +38,9 @@ int main() {
 
 ### Void Pointer
 A void pointer in C++ is a special type of pointer that can store the address of any data type but cannot be directly dereferenced without typecasting.
-- Declared as void *ptr;.
-- Can hold address of int, float, char, object, etc.
-- Must be typecast before dereferencing, since it has no associated data type.
+- Declared as `void *ptr;`.
+- Can hold address of `int`, `float`, `char`, object, etc.
+- Must be **typecast** before dereferencing, since it has no associated data type.
 - Useful for generic programming (writing functions that work with different data types).
 - Cannot be directly incremented or decremented (arithmetic not allowed without casting).
 
