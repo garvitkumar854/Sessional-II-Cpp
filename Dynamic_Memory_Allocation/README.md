@@ -1,6 +1,16 @@
 # Dynamic Memory Allocation
 
 ## Dynamic Allocation Operators `new` and `delete`
+### `new` Operator
+- Allocates memory for a variable, array, or object at runtime.
+- Returns the address of allocated memory (a pointer).
+- Can also call constructors when creating objects.
+
+### `delete` Operator
+- Used to free memory allocated by `new`.
+- Prevents memory leaks.
+- Must be used only with memory allocated using `new`.
+
 ```cpp
 #include <iostream>
 using namespace std;
