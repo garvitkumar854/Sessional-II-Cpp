@@ -1,6 +1,8 @@
 # Dynamic Memory Allocation
 
 ## Dynamic Allocation Operators `new` and `delete`
+Dynamic memory allocation in C++ is the process of allocating memory to variables, arrays, or objects at runtime instead of compile time. It allows programs to use memory efficiently, create flexible data structures like linked lists, and handle varying amounts of data. C++ provides the operators new for allocation and delete for deallocation.
+
 ### `new` Operator
 - Allocates memory for a variable, array, or object at runtime.
 - Returns the address of allocated memory (a pointer).
