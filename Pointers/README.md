@@ -25,6 +25,8 @@ int main() {
 ```
 
 ### Null Pointer
+A `null` pointer in C++ is a special pointer that intentionally points to nothing or no valid memory location. It is commonly represented by `nullptr` in modern C++ or `0` in older versions. Null pointers are useful for initialization, checking invalid addresses, handling errors, and preventing unintended memory access.
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -35,6 +37,13 @@ int main() {
 ```
 
 ### Void Pointer
+A void pointer in C++ is a special type of pointer that can store the address of any data type but cannot be directly dereferenced without typecasting.
+- Declared as void *ptr;.
+- Can hold address of int, float, char, object, etc.
+- Must be typecast before dereferencing, since it has no associated data type.
+- Useful for generic programming (writing functions that work with different data types).
+- Cannot be directly incremented or decremented (arithmetic not allowed without casting).
+
 ```cpp
 #include <iostream>
 using namespace std;
