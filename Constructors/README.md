@@ -125,6 +125,13 @@ int main() {
 ```
 
 ## Constructor with Default Arguments
+A constructor with default arguments is a parameterized constructor where some or all parameters have default values. If arguments are not provided during object creation, defaults are used automatically.
+
+- Combines features of default and parameterized constructors.
+- Allows object creation with or without arguments.
+- Only rightmost parameters can have default values.
+- Helps reduce constructor overloading.
+  
 ```cpp
 #include <iostream>
 using namespace std;
