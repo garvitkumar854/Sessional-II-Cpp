@@ -161,6 +161,16 @@ int main() {
 ```
 
 ## Destructor (bonus, paired with constructor)
+A destructor is a special member function in C++ that is automatically invoked when an object goes out of scope or is explicitly deleted. Its main purpose is to release resources, such as dynamically allocated memory, files, or network connections.
+
+- Destructor name is same as class name but prefixed with ~.
+- It has no return type and no parameters.
+- Each class can have only one destructor.
+- Called automatically in reverse order of construction.
+- Mostly used for cleanup tasks (freeing memory using delete).
+- Cannot be overloaded or inherited, but base class destructors are called when derived class objects are destroyed.
+- If not written, compiler provides a default destructor.
+
 ```cpp
 #include <iostream>
 using namespace std;
